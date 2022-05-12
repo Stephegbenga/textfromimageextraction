@@ -6,3 +6,4 @@ print(img)
 img = cv2.resize(img, (640,480))
 d = pytesseract.image_to_data(img)
 print(d)
+

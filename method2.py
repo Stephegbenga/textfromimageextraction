@@ -8,3 +8,4 @@ reader = easyocr.Reader(['en'])
 result = reader.readtext(img,paragraph='False')
 df=pd.DataFrame(result)
 print(df[1])
+
